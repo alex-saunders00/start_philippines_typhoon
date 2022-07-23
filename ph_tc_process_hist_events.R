@@ -6,7 +6,7 @@
 # learning forecasting model.
 # Author: Alex Saunders
 # Date created: 12/07/2022
-# Date modified: 19/07/2022
+# Date modified: 23/07/2022
 ################################################################################
 
 
@@ -46,7 +46,7 @@ output_path <- "C:/Users/alexa/Documents/02_work/02_start/06_technical_advisor_w
 ################################################################################
 
 # read the input
-input_file <- input_files[1] # number of damaged houses (other file is %)
+input_file <- input_files[4] # number of damaged houses (other file is %)
 hist_event_table <- read.csv(paste0(input_path, input_file))
 
 # aggregate losses by event
